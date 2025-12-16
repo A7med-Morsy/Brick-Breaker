@@ -163,12 +163,12 @@ class GamePanel extends JPanel implements ActionListener, KeyListener {
     public void keyPressed(KeyEvent e) {
         switch(e.getKeyCode()) {
             case KeyEvent.VK_RIGHT:
-                paddleX += 10;
+                paddleX += 15;
                 if (paddleX + paddleWidth > 720) paddleX = 720 - paddleWidth;
                 repaint();
                 break;
             case KeyEvent.VK_LEFT:
-                paddleX -= 10;
+                paddleX -= 15;
                 if (paddleX < 0) paddleX = 0;
                 repaint();
                 break;
@@ -178,3 +178,4 @@ class GamePanel extends JPanel implements ActionListener, KeyListener {
     @Override
     public void keyReleased(KeyEvent e) { }
 }
+
