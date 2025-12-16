@@ -11,9 +11,9 @@ package brickbreaker;
 import java.awt.*;
 
 public class Paddle {
-    private int xd = 300;
-private final int yd = 540;
-private final int width_d = 100;
+//     private int xd = 300;
+// private final int yd = 540;
+// private final int width_d = 100;
 
 
 //public void moveLeft() {
@@ -39,12 +39,13 @@ private final int width_d = 100;
 //}
 
 
-public Rectangle getRect() {
-return new Rectangle(xd, yd, width_d, 10);
-}
+// public Rectangle getRect() {
+// return new Rectangle(xd, yd, width_d, 10);
+// }
 
 
-public void reset() {
-xd = 300;
+// public void reset() {
+// xd = 300;
+// }
 }
-}
+
